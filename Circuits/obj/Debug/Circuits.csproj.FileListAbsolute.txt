@@ -1,0 +1,27 @@
+\\oslo.scms.waikato.ac.nz\home\telphick\Desktop\Circuits\Circuits\bin\Debug\Circuits.exe
+\\oslo.scms.waikato.ac.nz\home\telphick\Desktop\Circuits\Circuits\bin\Debug\Circuits.pdb
+\\oslo.scms.waikato.ac.nz\home\telphick\Desktop\Circuits\Circuits\obj\Debug\ResolveAssemblyReference.cache
+\\oslo.scms.waikato.ac.nz\home\telphick\Desktop\Circuits\Circuits\obj\Debug\Circuits.Form1.resources
+\\oslo.scms.waikato.ac.nz\home\telphick\Desktop\Circuits\Circuits\obj\Debug\Circuits.Properties.Resources.resources
+\\oslo.scms.waikato.ac.nz\home\telphick\Desktop\Circuits\Circuits\obj\Debug\Circuits.exe
+\\oslo.scms.waikato.ac.nz\home\telphick\Desktop\Circuits\Circuits\obj\Debug\Circuits.pdb
+\\oslo.scms.waikato.ac.nz\home\telphick\Desktop\Circuits\Circuits\obj\Debug\GenerateResource-ResGen.read.1.tlog
+\\oslo.scms.waikato.ac.nz\home\telphick\Desktop\Circuits\Circuits\obj\Debug\GenerateResource-ResGen.write.1.tlog
+G:\My Drive\2018Papers\COMPX102-18B\Circuits\Circuits\bin\Debug\Circuits.exe
+G:\My Drive\2018Papers\COMPX102-18B\Circuits\Circuits\bin\Debug\Circuits.pdb
+G:\My Drive\2018Papers\COMPX102-18B\Circuits\Circuits\obj\Debug\Circuits.csprojAssemblyReference.cache
+G:\My Drive\2018Papers\COMPX102-18B\Circuits\Circuits\obj\Debug\Circuits.Form1.resources
+G:\My Drive\2018Papers\COMPX102-18B\Circuits\Circuits\obj\Debug\Circuits.Properties.Resources.resources
+G:\My Drive\2018Papers\COMPX102-18B\Circuits\Circuits\obj\Debug\Circuits.csproj.GenerateResource.cache
+G:\My Drive\2018Papers\COMPX102-18B\Circuits\Circuits\obj\Debug\Circuits.csproj.CoreCompileInputs.cache
+G:\My Drive\2018Papers\COMPX102-18B\Circuits\Circuits\obj\Debug\Circuits.exe
+G:\My Drive\2018Papers\COMPX102-18B\Circuits\Circuits\obj\Debug\Circuits.pdb
+C:\Users\Tim\Desktop\Circuits\Circuits\bin\Debug\Circuits.exe
+C:\Users\Tim\Desktop\Circuits\Circuits\bin\Debug\Circuits.pdb
+C:\Users\Tim\Desktop\Circuits\Circuits\obj\Debug\Circuits.csprojAssemblyReference.cache
+C:\Users\Tim\Desktop\Circuits\Circuits\obj\Debug\Circuits.Form1.resources
+C:\Users\Tim\Desktop\Circuits\Circuits\obj\Debug\Circuits.Properties.Resources.resources
+C:\Users\Tim\Desktop\Circuits\Circuits\obj\Debug\Circuits.csproj.GenerateResource.cache
+C:\Users\Tim\Desktop\Circuits\Circuits\obj\Debug\Circuits.csproj.CoreCompileInputs.cache
+C:\Users\Tim\Desktop\Circuits\Circuits\obj\Debug\Circuits.exe
+C:\Users\Tim\Desktop\Circuits\Circuits\obj\Debug\Circuits.pdb
