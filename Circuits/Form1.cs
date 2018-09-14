@@ -7,6 +7,8 @@ using System.Text;
 using System.Windows.Forms;
 using System.Diagnostics;
 
+//Test comment from tim
+
 namespace Circuits
 {
     /// <summary>
