@@ -28,32 +28,32 @@ namespace Circuits
         /// If this is non-null, we are inserting a wire by
         /// dragging the mouse from startPin to some output Pin.
         /// </summary>
-        protected Pin startPin = null;
+        Pin startPin = null;
 
         /// <summary>
         /// The (x,y) position of the current gate, just before we started dragging it.
         /// </summary>
-        protected int currentX, currentY;
+        int currentX, currentY;
 
         /// <summary>
         /// The set of gates in the circuit
         /// </summary>
-        protected List<AndGate> gates = new List<AndGate>();
+        List<Gate> gates = new List<Gate>();
 
         /// <summary>
         /// The set of connector wires in the circuit
         /// </summary>
-        protected List<Wire> wires = new List<Wire>();
+        List<Wire> wires = new List<Wire>();
 
         /// <summary>
         /// The currently selected gate, or null if no gate is selected.
         /// </summary>
-        protected AndGate current = null;
+        Gate current = null;
 
         /// <summary>
         /// The new gate that is about to be inserted into the circuit
         /// </summary>
-        protected AndGate newGate = null;
+        Gate newGate = null;
 
         public Form1()
         {
@@ -68,9 +68,9 @@ namespace Circuits
         /// <param name="x"></param>
         /// <param name="y"></param>
         /// <returns></returns>
-        public Pin findPin(int x, int y)
+        private Pin findPin(int x, int y)
         {
-            foreach (AndGate g in gates)
+            foreach (Gate g in gates)
             {
                 foreach (Pin p in g.Pins)
                 {
@@ -83,7 +83,7 @@ namespace Circuits
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            foreach (AndGate g in gates)
+            foreach (Gate g in gates)
             {
                 g.Draw(e.Graphics);
             } 
@@ -124,7 +124,7 @@ namespace Circuits
             else
             {
                 // search for the first gate under the mouse position
-                foreach (AndGate g in gates)
+                foreach (Gate g in gates)
                 {
                     if (g.IsMouseOn(e.X, e.Y))
                     {

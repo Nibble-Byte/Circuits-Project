@@ -16,15 +16,15 @@ namespace Circuits
     /// Output pins may have lots of wires pointing to them,
     /// but they don't know anything about this.
     /// </summary>
-    public class Pin
+    class Pin
     {
         protected int x, y;
         protected bool input;
         protected int length;
-        protected AndGate owner;
+        protected Gate owner;
         protected Wire connection;
 
-        public Pin(AndGate gate, bool input, int length)
+        public Pin(Gate gate, bool input, int length)
         {
             this.owner = gate;
             this.input = input;
@@ -52,7 +52,7 @@ namespace Circuits
         /// This read-only property returns the gate that this pin
         /// belongs to.
         /// </summary>
-        public AndGate Owner
+        public Gate Owner
         {
             get { return owner; }
         }
