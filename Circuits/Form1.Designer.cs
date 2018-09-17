@@ -31,6 +31,7 @@ namespace Circuits
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.buttonAnd = new System.Windows.Forms.ToolStripButton();
+            this.buttonOR = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -38,7 +39,8 @@ namespace Circuits
             // 
             this.toolStrip1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.buttonAnd});
+            this.buttonAnd,
+            this.buttonOR});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(472, 25);
@@ -52,8 +54,18 @@ namespace Circuits
             this.buttonAnd.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.buttonAnd.Name = "buttonAnd";
             this.buttonAnd.Size = new System.Drawing.Size(23, 22);
-            this.buttonAnd.Text = "And";
+            this.buttonAnd.Text = "AND";
             this.buttonAnd.Click += new System.EventHandler(this.buttonAnd_Click);
+            // 
+            // buttonOR
+            // 
+            this.buttonOR.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.buttonOR.Image = ((System.Drawing.Image)(resources.GetObject("buttonOR.Image")));
+            this.buttonOR.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.buttonOR.Name = "buttonOR";
+            this.buttonOR.Size = new System.Drawing.Size(23, 22);
+            this.buttonOR.Text = "OR";
+            this.buttonOR.Click += new System.EventHandler(this.buttonOR_Click);
             // 
             // Form1
             // 
@@ -66,9 +78,9 @@ namespace Circuits
             this.Text = "Digital Circuits 104";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseClick);
-            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
-            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -80,6 +92,7 @@ namespace Circuits
 
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton buttonAnd;
+        private System.Windows.Forms.ToolStripButton buttonOR;
     }
 }
 

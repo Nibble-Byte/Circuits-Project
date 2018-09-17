@@ -229,5 +229,11 @@ namespace Circuits
         {
             newGate = new AndGate(0, 0);
         }
+
+
+        private void buttonOR_Click(object sender, EventArgs e)
+        {
+            newGate = new OrGate(0, 0);
+        }
     }
 }
